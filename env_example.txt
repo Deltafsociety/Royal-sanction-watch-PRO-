@@ -1,0 +1,25 @@
+# Royal Sanction Watch Configuration
+# Copy this file to .env and fill in your actual values
+
+# OpenSanctions API Configuration
+# Get your API key from: https://www.opensanctions.org/api/
+OPENSANCTIONS_API_KEY=your_opensanctions_api_key_here
+
+# OpenSanctions API Base URL (usually don't need to change this)
+OPENSANCTIONS_BASE_URL=https://api.opensanctions.org
+
+# Application Settings
+CACHE_DURATION_HOURS=24
+SIMILARITY_THRESHOLD=0.7
+MAX_RESULTS_PER_QUERY=10
+
+# API Rate Limiting
+REQUEST_DELAY_SECONDS=1.0
+MAX_RETRIES=3
+
+# File Paths
+CACHE_DIR=cache
+LOG_DIR=logs
+
+# Logging
+LOG_LEVEL=INFO 
